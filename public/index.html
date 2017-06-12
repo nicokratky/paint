@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>socket.io Paint</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+  </head>
+  <body>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="container">
+      <div id="colorpreview">
+        Ihre Farbe: <span></span>
+      </div>
+      <input type="text" id="commandline">
+    </div>
+
+    <div class="container">
+      <div id="list"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://unpkg.com/jquery@3.2.1"></script>
+    <script src="/js/paint.js"></script>
+    <script src="/js/canvas.js"></script>
+
+  </body>
+</html>

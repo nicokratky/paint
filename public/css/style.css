@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+*:focus {
+  outline: none;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+canvas {
+  display: block;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#colorpreview {
+  display: flex;
+  align-items: center;
+}
+
+#colorpreview span, #list span {
+  display: inline-block;
+  margin: 0 10px;
+  width: 50px;
+  height: 30px;
+}
+
+#commandline {
+  width: 60%;
+  font-size: 18px;
+}
+
+#list {
+  padding: 20px 0;
+}
+
+#list .listitem {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
